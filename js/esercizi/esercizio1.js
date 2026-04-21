@@ -25,3 +25,8 @@ righe
 */
 
 console.log("Esercizio 1.5: commento su una riga + commento su più righe")
+
+// 1.6: Scrivi un programma che stampi una breve presentazione di te stesso su più righe, usando più chiamate a console.log().
+console.log("Ciao! Mi chiamo Corinna Buzzi")
+console.log("Ho 20 anni")
+console.log("Sto studiando JavaScript")
