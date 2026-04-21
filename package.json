@@ -1,0 +1,24 @@
+{
+  "name": "fe-buzzi",
+  "version": "1.0.0",
+  "description": "primo progetto node con JavaScript",
+  "homepage": "https://github.com/corinnabuzzi/fe-buzzi#readme",
+  "bugs": {
+    "url": "https://github.com/corinnabuzzi/fe-buzzi/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/corinnabuzzi/fe-buzzi.git"
+  },
+  "license": "ISC",
+  "author": "corinnabuzzi",
+  "type": "commonjs",
+  "main": "main.js",
+  "scripts": {
+    "dev": "node js/main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "volta": {
+    "node": "24.15.0"
+  }
+}
