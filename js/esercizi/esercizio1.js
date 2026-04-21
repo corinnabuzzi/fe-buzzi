@@ -64,3 +64,9 @@ console.log(10 + 5 * 2)
 console.log((10 + 5) * 2)
 // Il risultato è diverso perché sono operazioni diversi
 
+
+// 1.11: Scrivi un programma che stampi il risultato di 0.1 + 0.2. Il risultato è quello che ti aspetti? Aggiungi un commento nel codice con la tua osservazione.
+console.log("Esercizio 1.11")
+console.log(0.1 + 0.2)
+
+// Il risultato è sbagliato.
