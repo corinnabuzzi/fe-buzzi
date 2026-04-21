@@ -41,3 +41,9 @@ console.log("Corinna Buzzi")
 console.log("Corinna Buzzi")
 console.log("Corinna Buzzi")
 console.log("Corinna Buzzi")
+
+// Scrivi un programma che stampi una riga di 30 asterischi (*), poi il tuo nome centrato nella riga successiva, poi un'altra riga di 30 asterischi.
+console.log("Esercizio 1.8")
+console.log("******************************")
+console.log("           Corinna            ")
+console.log("******************************")
