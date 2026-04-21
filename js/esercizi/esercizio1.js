@@ -47,3 +47,12 @@ console.log("Esercizio 1.8")
 console.log("******************************")
 console.log("           Corinna            ")
 console.log("******************************")
+
+// 
+console.log("========================")
+console.log("RICEVUTA DI PAGAMENTO")
+console.log("========================")
+console.log("Prodotto: caffè")
+console.log("Quantità: 1")
+console.log("Prezzo: 1,20 euro")
+console.log("========================")
