@@ -11,3 +11,6 @@ console.log(15 + 27)
 console.log(100 - 58)
 console.log(7 * 8)
 console.log(144 / 12)
+
+// Scrivi un programma che utilizzi un solo console.log() per stampare tre parole separate sulla stessa riga.
+console.log("Parola 1", "Parola 2", "Parola 3")
