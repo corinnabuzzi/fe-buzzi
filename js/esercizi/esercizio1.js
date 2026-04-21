@@ -42,13 +42,14 @@ console.log("Corinna Buzzi")
 console.log("Corinna Buzzi")
 console.log("Corinna Buzzi")
 
-// Scrivi un programma che stampi una riga di 30 asterischi (*), poi il tuo nome centrato nella riga successiva, poi un'altra riga di 30 asterischi.
+// 1.8 Scrivi un programma che stampi una riga di 30 asterischi (*), poi il tuo nome centrato nella riga successiva, poi un'altra riga di 30 asterischi.
 console.log("Esercizio 1.8")
 console.log("******************************")
 console.log("           Corinna            ")
 console.log("******************************")
 
-// 
+// 1.9 Scrivi un programma che stampi una "ricevuta" formattata come questa (i valori li decidi tu):
+console.log("Esercizio 1.9")
 console.log("========================")
 console.log("RICEVUTA DI PAGAMENTO")
 console.log("========================")
@@ -56,3 +57,10 @@ console.log("Prodotto: caffè")
 console.log("Quantità: 1")
 console.log("Prezzo: 1,20 euro")
 console.log("========================")
+
+// 1.10 Scrivi un programma che stampi i risultati di queste espressioni: (10 + 5 * 2), ((10 + 5) * 2). Osserva la differenza e commenta nel codice perché i risultati sono diversi.
+console.log("Esercizio 1.10")
+console.log(10 + 5 * 2)
+console.log((10 + 5) * 2)
+// Il risultato è diverso perché sono operazioni diversi
+
