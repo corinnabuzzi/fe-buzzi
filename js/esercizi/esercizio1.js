@@ -5,3 +5,9 @@ console.log("Corinna Buzzi")
 console.log("Corinna Buzzi")
 console.log("20")
 console.log("Milano")
+
+// 1.3 Scrivi un programma che stampi il risultato delle seguenti operazioni, ciascuna su una riga separata:
+console.log(15 + 27)
+console.log(100 - 58)
+console.log(7 * 8)
+console.log(144 / 12)
