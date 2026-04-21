@@ -1,8 +1,38 @@
-// log semplice
+// 1: console.log()
 console.log("Ciao!")
 
-// log di num
 console.log(6)
 
-// log con backtick
 console.log(`ho ${3+30} anni`);
+
+
+// 2: variabili
+let nome = "Gerry"
+
+const cognome = "Scotti"
+
+// data types:
+const number = 3
+
+const float = 3.4
+
+const string = "Ciao"
+
+const bool = true
+
+const array = ["Scotti", 4, true]
+
+const object = {
+    stringa: "abc",
+    numero: 7,
+    booleano: false
+}
+
+const nullo = null
+
+const indefinito = undefined
+
+const non_numero = NaN
+// esempio: 9 * "ABC" = NaN
+
+// operatori: + - * / % = != == && || < > <= >= ++ -- += -= *=
