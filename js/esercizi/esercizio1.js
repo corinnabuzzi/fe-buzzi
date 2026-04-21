@@ -12,5 +12,16 @@ console.log(100 - 58)
 console.log(7 * 8)
 console.log(144 / 12)
 
-// Scrivi un programma che utilizzi un solo console.log() per stampare tre parole separate sulla stessa riga.
+// 1.4 Scrivi un programma che utilizzi un solo console.log() per stampare tre parole separate sulla stessa riga.
 console.log("Parola 1", "Parola 2", "Parola 3")
+
+// 1.5 Scrivi un programma che contenga almeno un commento su una riga e un commento su più righe. Il programma deve anche stampare un messaggio nella console.
+
+/*
+commento
+su
+più
+righe
+*/
+
+console.log("Esercizio 1.5: commento su una riga + commento su più righe")
