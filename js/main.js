@@ -1,3 +1,5 @@
+// LEZIONE 1!
+
 // 1: console.log()
 console.log("Ciao!")
 
@@ -11,7 +13,7 @@ let nome = "Gerry"
 
 const cognome = "Scotti"
 
-// data types:
+// 2.1: data types
 const number = 3
 
 const float = 3.4
