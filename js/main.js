@@ -37,4 +37,5 @@ const indefinito = undefined
 const non_numero = NaN
 // esempio: 9 * "ABC" = NaN
 
-// operatori: + - * / % = != == && || < > <= >= ++ -- += -= *=
+// 2.2 operatori:
+// + - * / % = != == && || < > <= >= ++ -- += -= *=
