@@ -45,3 +45,13 @@ let str = "123"
 let num = Number(str)
 console.log(num + 7)
 console.log(  )
+
+// 2.6: Senza eseguire il codice, prevedi il risultato di ciascuna espressione. Poi verificalo: "5" + 3, "5" - 3, "5" * "2", true + 1, false + "ciao"
+console.log("5" + 3)
+console.log("5" - 3)
+console.log("5" * "2")
+console.log(true + 1)
+console.log(false + "ciao")
+console.log(  )
+
+
