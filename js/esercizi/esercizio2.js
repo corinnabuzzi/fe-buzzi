@@ -4,6 +4,7 @@ let nome = "Corinna"
 const annoNascita = 2005
 
 console.log(nome, annoNascita)
+console.log( )
 
 // 2.2: Dichiara due variabili numeriche a e b. Stampa il risultato della loro addizione, sottrazione, moltiplicazione, divisione e modulo.
 let a = 3
@@ -14,3 +15,15 @@ console.log(a - b)
 console.log(a * b)
 console.log(a / b)
 console.log(a % b)
+console.log( )
+
+// 2.3: Dato un prezzo di 49.90 e uno sconto del 20%, calcola e stampa il prezzo scontato.
+let prezzo = 49.90
+let sconto = 20
+
+let prezzoScontato = prezzo - (prezzo * sconto / 100)
+
+console.log(prezzoScontato)
+console.log( )
+
+// 2.4: Dichiara variabili di tipi diversi (number, string, boolean, undefined, null) e usa typeof per stampare il tipo di ciascuna.
