@@ -77,3 +77,12 @@ let eta8 = 20
 
 console.log(`Mi chiamo ${nome8} ${cognome8} e ho ${eta8} anni.`)
 console.log(  )
+
+// 2.9: Dato un numero di secondi totali (es. 3661), scrivi un programma che calcoli e stampi il corrispondente in ore, minuti e secondi rimanenti.
+let secondiTotali = 3661
+let ore = Math.floor(secondiTotali / 3600)
+let resto = secondiTotali % 3600
+let minuti = Math.floor(resto / 60)
+let secondi = resto % 60
+
+console.log(ore + "h " + minuti + "m " + secondi + "s ")
