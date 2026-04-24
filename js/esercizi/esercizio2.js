@@ -86,6 +86,7 @@ let minuti = Math.floor(resto / 60)
 let secondi = resto % 60
 
 console.log(ore + "h " + minuti + "m " + secondi + "s ")
+console.log(  )
 
 // 2.10: Scrivi un programma che scambi il valore di due variabili a e b senza usare una terza variabile. Stampa i valori prima e dopo lo scambio.
 let c = 3
@@ -93,3 +94,11 @@ let d = 2
 
 console.log(a, b)
 console.log(a + b)
+console.log(  )
+
+// 2.11: Dato un numero intero, scrivi un programma che determini se è pari o dispari usando l'operatore modulo e stampi il risultato come booleano.
+let pariodispari = 10
+let isPari = (pariodispari % 2 == 0)
+
+console.log(isPari)
+console.log(  )
