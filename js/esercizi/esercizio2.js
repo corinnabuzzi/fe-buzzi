@@ -39,3 +39,9 @@ console.log(typeof bool)
 console.log(typeof undefined)
 console.log(typeof vuota)
 console.log( )
+
+// 2.5: Scrivi un programma che converta la stringa "123" in un numero, gli aggiunga 7 e stampi il risultato.
+let str = "123"
+let num = Number(str)
+console.log(num + 7)
+console.log(  )
