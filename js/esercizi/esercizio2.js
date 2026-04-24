@@ -102,3 +102,15 @@ let isPari = (pariodispari % 2 == 0)
 
 console.log(isPari)
 console.log(  )
+
+// 2.12 Elenca tutti i valori falsy di JavaScript e, per ciascuno, verifica con Boolean() che il risultato sia effettivamente false.
+console.log(Boolean(false))
+console.log(Boolean(0))
+console.log(Boolean(-0))
+console.log(Boolean(0n))
+console.log(Boolean(""))
+console.log(Boolean(null))
+console.log(Boolean(undefined))
+console.log(Boolean(NaN))
+console.log(  )
+
