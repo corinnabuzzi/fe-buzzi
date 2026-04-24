@@ -114,3 +114,12 @@ console.log(Boolean(undefined))
 console.log(Boolean(NaN))
 console.log(  )
 
+// 2.13 Dato il raggio di un cerchio, calcola e stampa l'area e la circonferenza. Usa const per il valore di PI greco.
+const pi = 3.14
+const raggio = 5
+const area = pi * raggio * raggio;
+const circonferenza = 2 * pi * raggio;
+
+console.log("area: ", area);
+console.log("circonferenza: ", circonferenza);
+console.log(  )
