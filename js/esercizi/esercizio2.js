@@ -61,4 +61,10 @@ console.log(true + 1)
 console.log(false + "ciao")
 console.log(  )
 
+// 2.7: Dichiara le variabili eta (con valore 17), haPermesso (con valore true). Scrivi un'espressione che restituisca true solo se la persona ha almeno 18 anni oppure ha un permesso. Stampa il risultato.
+let eta = 17
+let haPermesso = true
 
+let risultato = (eta >= 18) || haPermesso;
+
+console.log(risultato)
