@@ -27,3 +27,15 @@ console.log(prezzoScontato)
 console.log( )
 
 // 2.4: Dichiara variabili di tipi diversi (number, string, boolean, undefined, null) e usa typeof per stampare il tipo di ciascuna.
+let numero = 10
+let stringa = "ciao"
+let bool = true
+let undefined
+let vuota = null
+
+console.log(typeof numero)
+console.log(typeof stringa)
+console.log(typeof bool)
+console.log(typeof undefined)
+console.log(typeof vuota)
+console.log( )
