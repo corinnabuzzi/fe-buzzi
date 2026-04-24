@@ -47,6 +47,13 @@ console.log(num + 7)
 console.log(  )
 
 // 2.6: Senza eseguire il codice, prevedi il risultato di ciascuna espressione. Poi verificalo: "5" + 3, "5" - 3, "5" * "2", true + 1, false + "ciao"
+/* Previsioni:
+"5" + 3 = 53
+"5" - 3 = 2 perché l'operazione forza il tipo int
+"5" * "2" = 10 perché l'operazione forza il tipo int
+true + 1 = 2 perché true = 1
+false + "ciao" = falseciao perché la presenza di una stringa forza la concatenazione
+*/
 console.log("5" + 3)
 console.log("5" - 3)
 console.log("5" * "2")
