@@ -86,3 +86,10 @@ let minuti = Math.floor(resto / 60)
 let secondi = resto % 60
 
 console.log(ore + "h " + minuti + "m " + secondi + "s ")
+
+// 2.10: Scrivi un programma che scambi il valore di due variabili a e b senza usare una terza variabile. Stampa i valori prima e dopo lo scambio.
+let c = 3
+let d = 2
+
+console.log(a, b)
+console.log(a + b)
