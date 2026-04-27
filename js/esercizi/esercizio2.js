@@ -136,3 +136,9 @@ let yen = euro * tassoYEN
 console.log(`euro: ${euro}; dollari: ${dollari}; sterline: ${sterline}; yen: ${yen}`)
 console.log(  )
 
+// 2.15 Dato un numero di minuti totali (es. 250), scrivi un programma che li converta in ore e minuti (es. "4 ore e 10 minuti").
+let minutiTotali = 250;
+let ore2 = Math.floor(minutiTotali / 60)
+let minuti2 = minutiTotali % 60
+console.log(`${ore2} ore e ${minuti2} minuti`)
+console.log(  )
