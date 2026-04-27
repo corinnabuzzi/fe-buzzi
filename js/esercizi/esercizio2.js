@@ -116,10 +116,23 @@ console.log(  )
 
 // 2.13 Dato il raggio di un cerchio, calcola e stampa l'area e la circonferenza. Usa const per il valore di PI greco.
 const pi = 3.14
-const raggio = 5
-const area = pi * raggio * raggio;
-const circonferenza = 2 * pi * raggio;
+let raggio = 5
+let area = pi * raggio * raggio;
+let circonferenza = 2 * pi * raggio;
 
 console.log("area: ", area);
 console.log("circonferenza: ", circonferenza);
+
+// 2.14 Scrivi un programma che, dato un importo in euro, calcoli l'equivalente in dollari, sterline e yen. Definisci i tassi di cambio come costanti.
+let euro = 100
+let tassoUSD = 1.08
+let tassoGBP = 0.85
+let tassoYEN = 160.50
+
+let dollari = euro * tassoUSD
+let sterline = euro * tassoGBP
+let yen = euro * tassoYEN
+
+console.log(`euro: ${euro}; dollari: ${dollari}; sterline: ${sterline}; yen: ${yen}`)
 console.log(  )
+
