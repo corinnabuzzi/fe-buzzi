@@ -3,3 +3,7 @@ let benvenuto = nome => `Benvenuto, ${nome}!`
 console.log(benvenuto("Luca"))
 console.log()
 
+// 4.2: Scrivi una arrow function rettangolo che accetti base e altezza come parametri e restituisca l'area del rettangolo.
+const rettangolo = (base, altezza) => base * altezza
+console.log(rettangolo(5,3))
+console.log()
