@@ -138,4 +138,77 @@ const risultatoDiff = diff(a, b)
 console.log(risultatoDiff)
 
 // --------------------------------------------------------------------------------------------------
-// array
+// ARRAY
+
+// creare array
+const arrayString = ["ciao", "buongiorno", "hello"]
+const arrayNum = [1, 2, 3]
+
+
+const movies = [
+    {
+        title: "Matrix"
+        year: 1999
+    },
+    {
+        title: "Indiana Jones"
+        year: 2001
+    }
+]
+
+const arrayMisti = ["pippo", 2, true, {}]
+
+// accedere a elementi
+const movie = movies[1]
+console.log(movie)
+
+console.log("Lunghezza dell'array movies: ", movies.length())
+
+// lunghezza array
+console.log("ultimo film: ", movies[movies.length - 1])
+
+// modificare array
+
+// aggiungere nuovi elementi (push, unshift)
+
+// aggiungere in fondo
+movies.push({title: "Oppenheimer", year: 2023})
+console.log("PUSH: ", movies)
+console.log (movies.length - 1)
+
+// aggiungere in testa
+movies.unshift({title: "Mamma ho perso l'aereo", year: 1990})
+console.log("UNSHIFT: ", movies)
+
+// eliminare elementi (pop, shift)
+
+// eliminare elemento in coda
+movies.pop()
+console.log(movies)
+
+// eliminare in testa
+movies.shift()
+console.log(movies)
+
+// rimuovere elementi in posizione precisa (splice(1,2))
+movies.splice(0, 1)
+console.log("SPLICE: ", movies)
+
+
+// aggiungere elementi in posizione precisa (splice(1,0, 'nuovo elemento'))
+movies.splice(1, 0, {title: "Harry Potter", year: 2003})
+console.log("SPLICE: ", movies)
+
+// accedere a un sottoArray (slice(1,3))
+const sliceArray = [0, 1, 2, 3, 4, 5, 6]
+
+console.log(sliceArray.slice(2, 5)) // voglio numeri dal 2 al 4. il secondo parametro è esclusivo!per questo 2,5
+
+// unire array (concat)
+const array1 = [1, 2, 3]
+
+const array2 = [3, 4, 5]
+
+const array3 = array1.concat(array2)
+
+console.log(array3)
