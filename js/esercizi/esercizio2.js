@@ -142,3 +142,22 @@ let ore2 = Math.floor(minutiTotali / 60)
 let minuti2 = minutiTotali % 60
 console.log(`${ore2} ore e ${minuti2} minuti`)
 console.log(  )
+
+
+// 2.16 Senza eseguire il codice, prevedi il risultato di ciascuna espressione. Poi verificalo:
+/* typeof typeof 42
+"3" + 4 + 5 concatenazione
+3 + 4 + "5" concatenazione
+"" == false true perché false == false
+"" === false false: stringa comparata a booleano
+null == undefined true?
+null === undefined false, tipi diversi
+*/
+console.log(typeof typeof 42)
+console.log("3" + 4 + 5)
+console.log(3 + 4 + "5")
+console.log("" == false)
+console.log("" === false)
+console.log(null == undefined)
+console.log(null === undefined)
+console.log(  )
