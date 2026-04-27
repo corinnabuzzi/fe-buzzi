@@ -233,6 +233,14 @@ console.log()
 // 2.23: Scrivi un programma che determini se un carattere (stringa di un solo carattere) è una vocale o una consonante. Usa gli operatori logici.
 let carattere = "a"
 
-let isVocale = (carattere === "a" || carattere === "e" || carattere === "i" || carattere === "o" || carattere === "u")
+let isVocale = 
+(carattere === "a" || carattere === "A" || carattere === "e" || carattere === "E" || carattere === "i" || carattere === "I" || carattere === "o" || carattere === "O" || carattere === "u" || carattere === "U")
 console.log(isVocale ? "il carattere è una vocale" : "il carattere è una consonante")
+console.log()
+
+// 2.24: Dato un numero intero positivo, scrivi un programma che determini quante cifre ha (usa solo operazioni matematiche, non convertire in stringa).
+let interoPos = 1234 
+let cifre = (intero >= 1) + (intero >= 10) + (intero >= 100) + (intero >= 1000)
+
+console.log(cifre)
 console.log()
