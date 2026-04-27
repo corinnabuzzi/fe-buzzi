@@ -185,3 +185,29 @@ let altezza = 1.70
 const bmi = peso / (altezza * altezza)
 console.log(`BMI: ${bmi}`)
 console.log(  )
+
+
+// 2.20 Dichiara una variabile con const e prova a riassegnarla. Osserva l'errore. Poi dichiara un array con const e prova a modificare un suo elemento. Funziona? Commenta il perché nel codice.
+/*const x = 10
+x = 20
+
+Errore:
+x = 20
+  ^
+
+TypeError: Assignment to constant variable.
+    at Object.<anonymous> (/home/corinna/javascript/fe-buzzi/js/esercizi/esercizio2.js:192:3)
+    at Module._compile (node:internal/modules/cjs/loader:1830:14)
+    at Object..js (node:internal/modules/cjs/loader:1961:10)
+    at Module.load (node:internal/modules/cjs/loader:1553:32)
+    at Module._load (node:internal/modules/cjs/loader:1355:12)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)
+    at Module.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:154:5)
+    at node:internal/main/run_main_module:33:47
+*/
+const numeri = [1, 2, 3]
+numeri[0] = 99
+console.log(numeri)
+
+console.log(  )
+
