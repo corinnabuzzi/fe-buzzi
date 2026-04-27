@@ -221,3 +221,11 @@ const costo = litri * prezzo
 
 console.log(`costo totale: ${costo}€`)
 console.log()
+
+// 2.22: Scrivi un programma che, data una temperatura in Celsius, la converta in Fahrenheit e Kelvin. Stampa tutte e tre le temperature con le rispettive unità.
+let Celsius = 25
+const Fahrenheit = (Celsius * 9/5) + 32
+const Kelvin = Celsius + 273.15
+
+console.log(`Celsius: ${Celsius}C; Fahrenheit: ${Fahrenheit}F; Kelvin: ${Kelvin}K`)
+console.log()
