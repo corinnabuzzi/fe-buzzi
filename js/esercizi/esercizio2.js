@@ -177,3 +177,11 @@ let decine = Math.floor((numeroScelto % 100) / 10)
 let unita = numeroScelto % 10
 console.log(`numero scelto: ${numeroScelto}; centinaia: ${centinaia}; decine: ${decine}; unità: ${unita}`)
 console.log(  )
+
+
+// 2.19 Scrivi un programma che calcoli il BMI (Body Mass Index) dato peso (in kg) e altezza (in metri). La formula è: BMI = peso / (altezza * altezza).
+let peso = 70
+let altezza = 1.70
+const bmi = peso / (altezza * altezza)
+console.log(`BMI: ${bmi}`)
+console.log(  )
