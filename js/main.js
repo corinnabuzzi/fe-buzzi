@@ -138,7 +138,8 @@ const risultatoDiff = diff(a, b)
 console.log(risultatoDiff)
 
 // --------------------------------------------------------------------------------------------------
-// ARRAY
+// ARRAY!!!!!!!!!! 27-04-26
+// per runnare il programma commentare tutto ciò che non interessa sennò casino
 
 // creare array
 const arrayString = ["ciao", "buongiorno", "hello"]
@@ -212,3 +213,44 @@ const array2 = [3, 4, 5]
 const array3 = array1.concat(array2)
 
 console.log(array3)
+
+// verificare se un elemento è presente (includes)
+console.log(array3.includes(6)) // l'output è true o false
+
+// trovare posizione di specifico elemento (indexOf)
+console.log(array3.indexOf(6)) // l'output è l'indice dell'elemento
+// output -1: elemento non trovato.
+
+// argomento saltato: join - trasformare array in stringa, output concatenazione array stringhe
+
+// invertire ordine array (reverse): output nuovo array specularmente opposto
+const reverseArray3 = array3.reverse()
+console.log("REVERSE: ", reverseArray3)
+
+// (ri)ordinare un array (sort): output nuovo array con elementi ordinati
+// con stringhe
+const arrayDisordinato = ["Pippo", "Alpha", "Gerry", "Bobo"]
+console.log(arrayDisordinato.sort())
+
+// con numeri
+const arrayDisordinato2 = [9, 0, 25, 4, 3, 6, 7]
+console.log(arrayDisordinato2.sort()) // array ordinato male: vede il 2 di 25 e lo ordina alfabeticamente come un 2
+
+console.log(arrayDisordinato2.sort((a, b) => a - b)) // parametro FUNZIONE senza nome
+
+// stampare ogni elemento con for loop
+for(let i = 0; i < arrayDisordinato2.length; i++){
+    console.log(arrayDisordinato2[i])
+}
+
+// sintassi concisa
+for (const i in movies) {
+    console.log(movies[i])
+}
+
+
+// metodo specifico degli array
+movies.forEach((movie, i) => {
+    console.log(i)
+    console.log(movie.title)
+}
