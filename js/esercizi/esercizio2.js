@@ -211,3 +211,13 @@ console.log(numeri)
 
 console.log(  )
 
+// 2.21: Scrivi un programma che determini il costo di un viaggio in auto. Dati: distanza in km, consumo dell'auto (km/litro) e prezzo del carburante al litro. Stampa il costo totale.
+const distanza = 300
+const consumo = 15
+const prezzoLitro = 1.85
+
+const litri = distanza / consumo
+const costo = litri * prezzo
+
+console.log(`costo totale: ${costo}€`)
+console.log()
