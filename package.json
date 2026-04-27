@@ -15,6 +15,7 @@
   "type": "commonjs",
   "main": "main.js",
   "scripts": {
+    "es4": "node js/esercizi/esercizio4",
     "es2": "node js/esercizi/esercizio2",
     "es1": "node js/esercizi/esercizio1",
     "dev": "node js/main.js",
