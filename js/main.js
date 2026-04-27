@@ -136,3 +136,6 @@ console.log(risultatoSomma)
 const diff = (a, b) => a - b;
 const risultatoDiff = diff(a, b)
 console.log(risultatoDiff)
+
+// --------------------------------------------------------------------------------------------------
+// array
