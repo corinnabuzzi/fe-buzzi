@@ -169,3 +169,11 @@ let n = 10
 let valido = (l + m > n) && (l + n > m) && (m + b > l)
 console.log(valido)
 console.log(  )
+
+// 2.18 Dato un numero a tre cifre (es. 472), scrivi un programma che ne estragga le singole cifre (centinaia, decine, unità) usando solo operazioni aritmetiche (/, % e Math.floor()). Stampa ogni cifra separatamente.
+let numeroScelto = 472
+let centinaia = Math.floor(numeroScelto / 100)
+let decine = Math.floor((numeroScelto % 100) / 10)
+let unita = numeroScelto % 10
+console.log(`numero scelto: ${numeroScelto}; centinaia: ${centinaia}; decine: ${decine}; unità: ${unita}`)
+console.log(  )
