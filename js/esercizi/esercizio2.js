@@ -161,3 +161,11 @@ console.log("" === false)
 console.log(null == undefined)
 console.log(null === undefined)
 console.log(  )
+
+// 2.17 Scrivi un programma che, dati tre lati di un triangolo, determini se il triangolo è valido (la somma di due lati qualsiasi deve essere maggiore del terzo). Stampa il risultato come booleano.
+let l = 5
+let m = 7
+let n = 10
+let valido = (l + m > n) && (l + n > m) && (m + b > l)
+console.log(valido)
+console.log(  )
