@@ -7,3 +7,8 @@ console.log()
 const rettangolo = (base, altezza) => base * altezza
 console.log(rettangolo(5,3))
 console.log()
+
+// 4.3: Scrivi una arrow function celsiusToFahrenheit che converta una temperatura da Celsius a Fahrenheit. La formula è: F = C × 9/5 + 32.
+const celsiusToFahrenheit = (Celsius) => Celsius * 9/5 + 32
+console.log(celsiusToFahrenheit(25))
+console.log()
