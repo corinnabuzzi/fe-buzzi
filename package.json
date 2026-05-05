@@ -19,7 +19,7 @@
     "es4": "node js/esercizi/esercizio4",
     "es2": "node js/esercizi/esercizio2",
     "es1": "node js/esercizi/esercizio1",
-    "test": "node js/test.js",
+    "play": "node js/playground.js",
     "dev": "node js/main.js",
     },
   "volta": {
