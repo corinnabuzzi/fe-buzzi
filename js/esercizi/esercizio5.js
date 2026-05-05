@@ -1,6 +1,10 @@
 // 5.1: Crea un array con i nomi di 5 tuoi amici. Stampa il primo, l'ultimo e la lunghezza dell'array.
+const amici = ["Mario", "Luigi", "Wario", "Waluigi", "Yoshi"]
+console.log(amici[0])
+console.log(amici[amici.length - 1])
+console.log(amici.length)
+console.log(  )
 
-// 5.2: Dato un array di numeri, scrivi una funzione che restituisca la somma di tutti gli elementi.
 
 // 5.3: Dato un array di numeri, scrivi una funzione che restituisca il valore massimo.
 
