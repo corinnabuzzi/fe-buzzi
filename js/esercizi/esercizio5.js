@@ -17,16 +17,17 @@ const sommaArray = (numeri) => {
 console.log(sommaArray(numeri))
 console.log(  )
 
-
-
-
-
-
-
-
-
 // 5.3: Dato un array di numeri, scrivi una funzione che restituisca il valore massimo.
-
+const maxArray = (array) => {
+    let max = array[0]
+    for (let i = 1; i < array.length; i++) {
+        if (array[i] > max) {
+            max = array[i];
+        }
+    }
+    return max;
+}
+console.log(maxArray([3, 7, 2, 8, 9]))
 
 
 
