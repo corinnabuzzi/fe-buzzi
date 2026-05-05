@@ -1,11 +1,11 @@
-const persona {
+const persona = {
     altezza: 180, // numeri
     peso: 65,
     nome: "Andrea", // stringhe
-    coloreCapelli: "Marrone" 
+    coloreCapelli: "Marrone", 
     figlioUnico: false, // bool
-    sorelle: ["Giada", "Paola"] // array 
-    statoCivile: undefined 
+    sorelle: ["Giada", "Paola"], // array 
+    statoCivile: undefined, 
     fareSport: (quanto)  => {
         console.log(persona.nome + "fa" + quanto + "Nuoto")
     }
