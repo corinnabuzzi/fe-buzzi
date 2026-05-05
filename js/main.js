@@ -258,3 +258,17 @@ movies.forEach((movie, i) => {
 // --------------------------------------------------------------------------------------------------ù
 // 6: oggetti
 
+// creare un oggetto
+// vuoto
+{}
+
+// chiave + valore
+const persona {
+    altezza: 180, // numeri
+    peso: 65,
+    nome: "Andrea", // stringhe
+    coloreCapelli: "Marrone" 
+    figlioUnico: false, // bool
+    sorelle: ["Giada", "Paola"] // array 
+}
+
