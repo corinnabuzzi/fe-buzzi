@@ -28,10 +28,22 @@ const maxArray = (array) => {
     return max;
 }
 console.log(maxArray([3, 7, 2, 8, 9]))
-
-
+console.log(  )
 
 // 5.4: Dato un array di numeri, scrivi una funzione che restituisca un nuovo array contenente solo i numeri pari.
+const numeriPari = (arr) => {
+    const risultato = []
+
+    for (let i = 0; i < arr.length; i++){
+        if (arr[i] % 2 === 0) {
+            risultato.push(arr[i])
+        }
+    }
+    return risultato;
+}
+
+console.log(numeriPari([1, 2, 3, 4, 5, 6]))
+console.log(  )
 
 // 5.5: Scrivi una funzione che accetti un array e un valore, e restituisca quante volte quel valore appare nell'array.
 
