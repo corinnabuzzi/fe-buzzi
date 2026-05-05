@@ -299,4 +299,20 @@ console.log("Esiste proprietà figlio unico?", "figlioUnico" in persona)
 // Metodi - fareSport
 persona.fareSport("Tantissimo")
 
+const persona2 = { nome, figlio: persona, indirizzo: {
+    via: "Fasulla",
+    civico: 123,
+    cap: 20100
+}}
 
+console.log(persona2)
+console.log(persona2.indirizzo.cap)
+// console.log(persona2.indirizzo?.cap) dove ? = forse non esiste come proprietà, e lo so. output undefined invece che errore
+
+// Confronto oggetti
+const a = { x: 1 }
+const b = { x: 1 }
+const c = a
+
+console.log(a === b) // false! riferimenti diversi
+console.log(a === c) // true! stesso riferimento
