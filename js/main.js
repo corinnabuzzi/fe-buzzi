@@ -255,10 +255,10 @@ movies.forEach((movie, i) => {
     console.log(movie.title)
 }
 
-// --------------------------------------------------------------------------------------------------ù
-// 6: oggetti
+// --------------------------------------------------------------------------------------------------
+// Lezione 6: Oggetti
 
-// creare un oggetto
+// Creare un oggetto
 // vuoto
 {}
 
@@ -270,5 +270,27 @@ const persona {
     coloreCapelli: "Marrone" 
     figlioUnico: false, // bool
     sorelle: ["Giada", "Paola"] // array 
+    statoCivile: undefined 
 }
 
+// Accedere a proprietà: notazione punto
+console.log(persona.nome)
+
+// Accedere a proprietà: notazione quadra
+console.log(persona["nome"])
+
+// Modificare proprietà
+persona.altezza = 182
+console.log(persona.nome)
+
+// Aggiungere proprietà
+persona.ciboPreferito = "Pizza"
+
+// Eliminare proprietà
+delete persona.figlioUnico
+console.log(persona)
+
+// Verificare esistenza di una proprietà (trovare chiave, non valore) - operatore in, output bool
+console.log("Esiste proprietà figlio unico?", "figlioUnico" in persona)
+
+// Metodi
