@@ -5,8 +5,30 @@ console.log(amici[amici.length - 1])
 console.log(amici.length)
 console.log(  )
 
+// 5.2: Dato un array di numeri, scrivi una funzione che restituisca la somma di tutti gli elementi.
+const numeri = [1, 2, 3, 4, 5]
+const sommaArray = (numeri) => {
+    let somma = 0
+    for (let i = 0; i < numeri.length; i++) {
+        somma += numeri[i]
+    }
+    return somma
+}
+console.log(sommaArray(numeri))
+console.log(  )
+
+
+
+
+
+
+
+
 
 // 5.3: Dato un array di numeri, scrivi una funzione che restituisca il valore massimo.
+
+
+
 
 // 5.4: Dato un array di numeri, scrivi una funzione che restituisca un nuovo array contenente solo i numeri pari.
 
