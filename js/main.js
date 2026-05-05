@@ -271,6 +271,9 @@ const persona {
     figlioUnico: false, // bool
     sorelle: ["Giada", "Paola"] // array 
     statoCivile: undefined 
+    fareSport: (quanto)  => {
+        console.log(persona.nome + "fa" + quanto + "Nuoto")
+    }
 }
 
 // Accedere a proprietà: notazione punto
@@ -293,4 +296,7 @@ console.log(persona)
 // Verificare esistenza di una proprietà (trovare chiave, non valore) - operatore in, output bool
 console.log("Esiste proprietà figlio unico?", "figlioUnico" in persona)
 
-// Metodi
+// Metodi - fareSport
+persona.fareSport("Tantissimo")
+
+
