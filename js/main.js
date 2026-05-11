@@ -316,3 +316,7 @@ const c = a
 
 console.log(a === b) // false! riferimenti diversi
 console.log(a === c) // true! stesso riferimento
+
+
+
+// 7: metodi di array avanzati
