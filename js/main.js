@@ -320,3 +320,39 @@ console.log(a === c) // true! stesso riferimento
 
 
 // 7: metodi di array avanzati
+
+// 9: scope e closures
+
+// scope di funzione
+const global = 2
+console.log(global)
+
+const somma = (a) => {
+    const local = "pippo"
+    console.log(a+global)
+}
+
+somma(3)
+
+console.log(locale)
+
+// scope di blocco
+if() {
+    const blocco = 4
+}
+console.log(blocco)
+
+
+// closure
+const creaContatore = () {
+    let conteggio = 0
+    return () => {
+        conteggio++
+        return conteggio
+    }
+}
+
+const contatore = creaContatore
+console.log(contatore()) // 1
+console.log(contatore()) // 2
+console.log(contatore()) // 3
