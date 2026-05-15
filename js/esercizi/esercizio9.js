@@ -29,3 +29,16 @@ esterna();
 console.log(a);
 
 
+// Esercizio 9.3
+// Scrivi una funzione creaAccumulatore che accetti un valore iniziale e restituisca una funzione. Ogni volta che la funzione restituita viene chiamata con un numero, deve aggiungerlo al totale e restituire il nuovo totale.
+
+const CreaAccumulatore = (valore) => {
+    let totale = valore;
+    return (numero) => {
+        totale = totale + numero;
+        return totale
+    }
+}
+
+const metodo = CreaAccumulatore(2)
+console.log(metodo(4));
