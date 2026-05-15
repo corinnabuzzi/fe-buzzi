@@ -42,3 +42,16 @@ const CreaAccumulatore = (valore) => {
 
 const metodo = CreaAccumulatore(2)
 console.log(metodo(4));
+
+// Esercizio 9.4
+// Scrivi una funzione creaSaluto che accetti un saluto (es. "Ciao") e restituisca una funzione che accetti un nome e restituisca la frase completa.
+
+const creaSaluto = (saluto) => {
+    return function(nome){
+        return saluto + " " + nome;
+    }
+}
+
+const salutaCiao = creaSaluto("ciao,")
+
+console.log(salutaCiao("Corinna"))
