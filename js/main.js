@@ -356,3 +356,12 @@ const contatore = creaContatore
 console.log(contatore()) // 1
 console.log(contatore()) // 2
 console.log(contatore()) // 3
+
+
+// 18-05 Programmazione asincrona
+
+// codice sincrono: una riga alla volta
+console.log(1)
+console.log(2)
+console.log(3)
+
